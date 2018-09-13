@@ -1,0 +1,28 @@
+{
+  "name": "svg-mixer-issue32",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.1.5",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.1.0",
+    "external-svg-sprite-loader": "git://github.com/witem/external-svg-sprite-loader.git#d7cbf90",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-move-props-to-bg-image-query": "^0.2.4",
+    "resolve-url-loader": "^2.3.1",
+    "sass-loader": "^7.1.0",
+    "svg-transform-loader": "^1.2.1",
+    "webpack": "^4.18.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  }
+}
